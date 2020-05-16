@@ -6,6 +6,7 @@
 package matriz;
 
 import Class.code;
+import Class.memoria;
 
 /**
  *
@@ -18,8 +19,10 @@ public class Matriz {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        memoria mm = new memoria();
         code cd = new code();
-        cd.mostramat();
+        mm.sortear();
+        //cd.mostramat();
     }
     
 }
