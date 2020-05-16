@@ -5,6 +5,8 @@
  */
 package matriz;
 
+import Class.code;
+
 /**
  *
  * @author natan
@@ -16,6 +18,8 @@ public class Matriz {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        code cd = new code();
+        cd.mostramat();
     }
     
 }
